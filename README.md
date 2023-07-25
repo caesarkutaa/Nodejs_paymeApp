@@ -44,7 +44,7 @@ Before running the application, ensure that you have the following installed:
 
      ```plaintext
      MONGODB_URI=mongodb://localhost/payments
-     PORT=3000
+     PORT=3023
      ```
 
 5. Start the application:
@@ -57,7 +57,7 @@ Before running the application, ensure that you have the following installed:
 
 ## API Endpoints
 
-- `POST /transactions`: Create a new transaction.
+- `POST /transaction`: Create a new transaction.
 - `GET /transactions`: Get all transactions.
 
 ## Testing
